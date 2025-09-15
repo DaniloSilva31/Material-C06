@@ -14,12 +14,12 @@ public class LOJA_PCMANIA {
     public static void main(String[] args) {
 
         // Montagem dos PCS
-        MemoriaUSB memoria1 = new MemoriaUSB("Pen-Drive 16GB", 16);
+        MemoriaUSB memoria1 = new MemoriaUSB("Pen-Drive", 16);
         SistemaOperacional sistemaoperacional1 = new SistemaOperacional("macOS Sequoia de (64 bits)",64);
         HardwareBásico hardware1[] = {
-                new HardwareBásico("Pentium Core i3 (2200 Mhz)",2200),
-                new HardwareBásico("8 Gb de Memória RAM", 8),
-                new HardwareBásico("500Gb de HD",500)
+                new HardwareBásico("Pentium Core i3",2200),
+                new HardwareBásico("Memória RAM", 8),
+                new HardwareBásico("HD",500)
         };
 
         Computador promo1 = new Computador("Apple",2092,sistemaoperacional1,hardware1);
@@ -27,23 +27,23 @@ public class LOJA_PCMANIA {
 
 
 
-        MemoriaUSB memoria2 = new MemoriaUSB("Pen-Drive 32GB", 32);
+        MemoriaUSB memoria2 = new MemoriaUSB("Pen-Drive", 32);
         SistemaOperacional sistemaoperacional2 = new SistemaOperacional("Windows 8 (64 bits)", 64);
         HardwareBásico hardware2[] = {
-                new HardwareBásico("Pentium Core i5 (3370 Mhz)",3370),
-                new HardwareBásico("16 Gb de Memória RAM", 16),
-                new HardwareBásico("1Tb de HD",1000)
+                new HardwareBásico("Pentium Core i5",3370),
+                new HardwareBásico("Memória RAM", 16),
+                new HardwareBásico("HD",1000)
         };
         Computador promo2 = new Computador("Samsung",2092+1234,sistemaoperacional2,hardware2);
         promo2.addMemoriaUSB(memoria2);
 
 
-        MemoriaUSB memoria3 = new MemoriaUSB("HD Externo 1Tb", 1000);
+        MemoriaUSB memoria3 = new MemoriaUSB("HD Externo", 1000);
         SistemaOperacional sistemaoperacional3 = new SistemaOperacional("Windows 10 (64 bits)", 64);
         HardwareBásico hardware3[] = {
-                new HardwareBásico("Pentium Core i7 (4500 Mhz)",45),
-                new HardwareBásico("32 Gb de Memória RAM", 32),
-                new HardwareBásico("2Tb de HD",2000)
+                new HardwareBásico("Pentium Core i7",45000),
+                new HardwareBásico("Memória RAM", 32),
+                new HardwareBásico("HD",2000)
         };
         Computador promo3 = new Computador("Dell",2092+5678,sistemaoperacional3,hardware3);
         promo3.addMemoriaUSB(memoria3);
