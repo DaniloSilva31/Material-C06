@@ -23,10 +23,10 @@ public class Computador {
         System.out.println("Preço: "+preco);
         System.out.println("Hardwares Básicos:");
         for (int i = 0; i < Hardware.length; i++) {
-            System.out.println(Hardware[i].getNome()+" " + "Capacidade: "+Hardware[i].getCapacidade()+ "");
+            System.out.println(Hardware[i].getNome() + " Capacidade: "+Hardware[i].getCapacidade()+ "");
         }
-        System.out.println("Sistema Operacional: "+sistemaOperacional.getNome());
-        System.out.println("Mémoria externa: "+memoria.getNome());
+        System.out.println("Sistema Operacional: "+sistemaOperacional.getNome()+ " Tipo: " + sistemaOperacional.getTipo());
+        System.out.println("Mémoria externa: "+memoria.getNome()+ " Capacidade: " + memoria.getCapacidade());
     }// Mostra as configurações do PC para a promo
 
     public float getPreco() {
