@@ -15,7 +15,7 @@ public class LOJA_PCMANIA {
 
         // Montagem dos PCS
         MemoriaUSB memoria1 = new MemoriaUSB("Pen-Drive", 16);
-        SistemaOperacional sistemaoperacional1 = new SistemaOperacional("macOS Sequoia de (64 bits)",64);
+        SistemaOperacional sistemaoperacional1 = new SistemaOperacional("macOS Sequoia",64);
         HardwareBásico hardware1[] = {
                 new HardwareBásico("Pentium Core i3",2200),
                 new HardwareBásico("Memória RAM", 8),
@@ -28,7 +28,7 @@ public class LOJA_PCMANIA {
 
 
         MemoriaUSB memoria2 = new MemoriaUSB("Pen-Drive", 32);
-        SistemaOperacional sistemaoperacional2 = new SistemaOperacional("Windows 8 (64 bits)", 64);
+        SistemaOperacional sistemaoperacional2 = new SistemaOperacional("Windows 8", 64);
         HardwareBásico hardware2[] = {
                 new HardwareBásico("Pentium Core i5",3370),
                 new HardwareBásico("Memória RAM", 16),
@@ -39,7 +39,7 @@ public class LOJA_PCMANIA {
 
 
         MemoriaUSB memoria3 = new MemoriaUSB("HD Externo", 1000);
-        SistemaOperacional sistemaoperacional3 = new SistemaOperacional("Windows 10 (64 bits)", 64);
+        SistemaOperacional sistemaoperacional3 = new SistemaOperacional("Windows", 64);
         HardwareBásico hardware3[] = {
                 new HardwareBásico("Pentium Core i7",45000),
                 new HardwareBásico("Memória RAM", 32),
