@@ -13,3 +13,6 @@ public class MemoriaUSB {
         return nome;
     }//return do nome da memoria
 }
+    public int getCapacidade() {
+        return capacidade;
+    }//return a capacidade da memória 
