@@ -14,3 +14,6 @@ public class SistemaOperacional {
         return nome;
     }// return o nome do sistema operacional
 }
+    public int getTipo() {
+        return tipo;
+    }//return do tipo do sistema
